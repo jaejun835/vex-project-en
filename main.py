@@ -186,7 +186,7 @@ def control_lift():
             motor.stop()
         return
 
-    up = controller.buttonL2.pressing()
+    up = controller.buttonL1.pressing()
     down = controller.buttonL2.pressing()
     output = 0
 
