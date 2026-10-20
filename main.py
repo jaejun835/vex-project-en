@@ -27,8 +27,8 @@ WRIST_PORT = None
 
 # Keep the pulley directions confirmed during measurement
 # For both motors REVERSE raises the lift and decreases the angle
-LIFT_LEFT_REVERSED = True
-LIFT_RIGHT_REVERSED = False
+LIFT_LEFT_REVERSED = False
+LIFT_RIGHT_REVERSED = True
 # The claw also opens with REVERSE, and closes with FORWARD
 CLAW_REVERSED = False
 WRIST_REVERSED = False
@@ -41,7 +41,7 @@ WRIST_GEARS = GearSetting.RATIO_18_1
 # At the lower lift reference position press A to register both motors at 0
 # For the claw press X at the physical position that measured -59 degrees to register the reference ########################## Needs measurement and review again ################################
 LIFT_LOWER_LIMIT = 0
-LIFT_UPPER_LIMIT = -2400
+LIFT_UPPER_LIMIT = -2200
 # Block control of both pulleys until A is pressed
 lift_ready = False
 CLAW_CLOSED_LIMIT = -59
