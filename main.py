@@ -187,7 +187,7 @@ def control_lift():
         return
 
     up = controller.buttonL2.pressing()
-    down = controller.buttonL1.pressing()
+    down = controller.buttonL2.pressing()
     output = 0
 
     if up and not down:
