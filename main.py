@@ -41,7 +41,7 @@ WRIST_GEARS = GearSetting.RATIO_18_1
 # At the lower lift reference position press A to register both motors at 0
 # For the claw press X at the physical position that measured -59 degrees to register the reference ########################## Needs measurement and review again ################################
 LIFT_LOWER_LIMIT = 0
-LIFT_UPPER_LIMIT = -2200
+LIFT_UPPER_LIMIT = -2000
 # Block control of both pulleys until A is pressed
 lift_ready = False
 CLAW_CLOSED_LIMIT = -59
